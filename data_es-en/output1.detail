@@ -1,0 +1,96 @@
+SENT.	POS. SOURCE	SOURCE	POS. REF.	REF.	POS. TARGET	TARGET	CASE
+0	7	su-undef-sg	7	its	6	his	3
+0	16	su-pl	15 16	their histories	-	-	4
+1	4	dummy-we	4	we	4	we	1
+1	9	dummy-we	9	needs	9	needs	1
+1	12	que	12	our	12	our	1
+2	0	dummy-we	0	our	0	our	1
+2	7	dummy-we	7	our	7	our	1
+2	14	dummy-we	-	-	-	-	6
+3	3	que	3	the	3	makes	3
+4	11	nosotros	11	destroy	11	our	3
+5	15	dummy-we	10	we	12	we	1
+6	2	dummy-undef	2 3	ago this	2	commission	3
+6	10	que	-	-	-	-	6
+7	37	que	37	who	-	-	4
+8	24	que	24	still	-	-	4
+8	31	que	30	apos	-	-	4
+8	33	dummy-undef	31	;	10	and	3
+10	7	dummy-undef	7	hero	-	-	4
+11	15	dummy-undef	15	the	29	&amp;	3
+12	16	que	16	disputes	16	disputes	1
+12	17	dummy-undef	17	,	17	,	1
+12	40	su-pl	67	his	40	were	3
+12	47	su-pl	43	by	65	and	3
+12	51	dummy-undef	30	quot	50	;	3
+12	55	dummy-they	55	&amp;	55	merits	3
+12	59	su-pl	59	argues	43	their	3
+14	10	su-undef-sg	11	his	11	his	1
+14	18	que	18 19	land that	18 19	country that	1
+14	38	su-undef-sg	39	his	39	his	1
+14	45	dummy-they	45	revolutionary	45 47	revolutionary they	1
+14	53	que	-	-	53	political	5
+15	1	que	1	they	1	they	1
+15	12	dummy-they	12	of	12	revolution	3
+16	6	dummy-undef	6	cannot	6	dark	3
+17	4	que	4	what	3 4	happened too	3
+17	7	dummy-she	7	it	7	family	3
+17	12	que	12 13	of their	-	-	4
+17	13	su-fem-sg	13	their	6	her	3
+18	9	que	9	to	7 9	which mass	3
+19	34	su-undef-sg	32	his	32 33	his earlier	1
+20	27	que	25	that	27	nervous	3
+20	40	que	35	critical	40	s	3
+20	43	que	-	-	43	been	5
+21	8	que	8	were	8	than	3
+21	29	que	29	who	31	zhisui	3
+21	32	su-masc-sg	32 33 35	to his ,	27	his	1
+21	49	ella	48	it	-	-	4
+22	0	dummy-i	0	i	0	i	1
+22	12	que	12	and	12	leader	3
+23	0	dummy-i	0	i	0	i	1
+23	10	que	8 10	that credence	8	that	1
+24	6	que	6	(	6	who	3
+24	24	su-undef-sg	23 24	her homeland	21	his	3
+24	27	su-undef-sg	26 27 28	her husband and	23 24	with her	1
+25	0	dummy-they	0	they	0	they	1
+25	2	que	2	returning	2	returning	1
+25	5	su-pl	5	patriotic	4 5	their patriotic	1
+27	0	dummy-undef	0	they	0	they	1
+27	20	que	25	with	20	rightists	3
+29	12	que	12 14	apos s	-	-	4
+29	13	dummy-she	13	;	11	sacrifices	3
+29	15	que	15 16	sacrifices were	-	-	4
+29	19	su-fem-sg	17 19	justified the	13	her	3
+30	4	su-fem-sg	4	her	4	her	1
+30	7	su-fem-sg	7	this	7	her	3
+31	17	su-fem-sg	17	economic	17 19	years spectacular	3
+32	0	dummy-undef	0	she	0	she	1
+32	5	que	5	the	5	greed	3
+32	11	que	11	believed	10 11	believed had	1
+33	0	dummy-undef	0	why	0	they	3
+33	5	su-masc-sg	5 6	, had	4 5	his family	3
+35	12	que	11	who	7	who	1
+35	27	su-undef-sg	27	the	-	-	4
+36	10	que	10	out	10	been	3
+36	23	dummy-they	18	&amp;	23	s	3
+36	32	que	32	than	31	than	1
+37	4	dummy-undef	4	&amp;	4	&amp;	1
+37	16	su-pl	12 16	his power	12	his	1
+37	29	que	26	that	16	power	3
+37	37	que	28	with	27	with	1
+38	20	que	20	believed	19 20	who believed	1
+38	22	que	21	that	21	that	1
+38	30	él	30	could	30	shape	3
+38	33	dummy-they	32 33 34	history rather than	32	rather	1
+38	48	su-pl	38	its	37	tides	3
+39	0	dummy-it	0	this	0	clearly	3
+39	3	que	2 3	has clearly	3	has	1
+39	10	su-undef-sg	6	its	6	creator	3
+40	1	dummy-undef	1	with	1	with	1
+42	2	que	-	-	-	-	6
+45	6	dummy-i	5 6	i hope	6	i	1
+45	8	que	8	the	8	that	3
+45	17	que	17 18	s economic	13 17	derail ;	3
+45	25	dummy-undef	14	&amp;	25	be	3
+45	31	su-undef-sg	26	surprise	27	surprise	1

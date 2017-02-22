@@ -1,0 +1,96 @@
+SENT.	POS. SOURCE	SOURCE	POS. REF.	REF.	POS. TARGET	TARGET	CASE
+0	7	su-undef-sg	7	its	6	his	3
+0	16	su-pl	15 16	their	-	-	4
+1	4	dummy-we	4	we	4	we	1
+1	9	dummy-we	9	OTHER	9	OTHER	1
+1	12	que	12	OTHER	12	OTHER	1
+2	0	dummy-we	0	OTHER	0	OTHER	1
+2	7	dummy-we	7	OTHER	7	OTHER	1
+2	14	dummy-we	-	-	-	-	6
+3	3	que	3	OTHER	3	OTHER	1
+4	11	nosotros	11	OTHER	11	OTHER	1
+5	15	dummy-we	10	we	12	we	1
+6	2	dummy-undef	2 3	OTHER	2	OTHER	1
+6	10	que	-	-	-	-	6
+7	37	que	37	who	-	-	4
+8	24	que	24	OTHER	-	-	4
+8	31	que	30	OTHER	-	-	4
+8	33	dummy-undef	31	OTHER	10	OTHER	1
+10	7	dummy-undef	7	OTHER	-	-	4
+11	15	dummy-undef	15	OTHER	29	OTHER	1
+12	16	que	16	OTHER	16	OTHER	1
+12	17	dummy-undef	17	OTHER	17	OTHER	1
+12	40	su-pl	67	his	40	OTHER	3
+12	47	su-pl	43	OTHER	65	OTHER	1
+12	51	dummy-undef	30	OTHER	50	OTHER	1
+12	55	dummy-they	55	OTHER	55	OTHER	1
+12	59	su-pl	59	OTHER	43	their	3
+14	10	su-undef-sg	11	his	11	his	1
+14	18	que	18 19	that	18 19	that	1
+14	38	su-undef-sg	39	his	39	his	1
+14	45	dummy-they	45	OTHER	45 47	they	3
+14	53	que	-	-	53	OTHER	5
+15	1	que	1	they	1	they	1
+15	12	dummy-they	12	OTHER	12	OTHER	1
+16	6	dummy-undef	6	OTHER	6	OTHER	1
+17	4	que	4	OTHER	3 4	OTHER	1
+17	7	dummy-she	7	it	7	OTHER	3
+17	12	que	12 13	their	-	-	4
+17	13	su-fem-sg	13	their	6	her	3
+18	9	que	9	OTHER	7 9	OTHER	1
+19	34	su-undef-sg	32	his	32 33	his	1
+20	27	que	25	that	27	OTHER	3
+20	40	que	35	OTHER	40	OTHER	1
+20	43	que	-	-	43	OTHER	5
+21	8	que	8	OTHER	8	OTHER	1
+21	29	que	29	who	31	OTHER	3
+21	32	su-masc-sg	32 33 35	his	27	his	1
+21	49	ella	48	it	-	-	4
+22	0	dummy-i	0	i	0	i	1
+22	12	que	12	OTHER	12	OTHER	1
+23	0	dummy-i	0	i	0	i	1
+23	10	que	8 10	that	8	that	1
+24	6	que	6	OTHER	6	who	3
+24	24	su-undef-sg	23 24	her	21	his	3
+24	27	su-undef-sg	26 27 28	her	23 24	her	1
+25	0	dummy-they	0	they	0	they	1
+25	2	que	2	OTHER	2	OTHER	1
+25	5	su-pl	5	OTHER	4 5	their	3
+27	0	dummy-undef	0	they	0	they	1
+27	20	que	25	OTHER	20	OTHER	1
+29	12	que	12 14	OTHER	-	-	4
+29	13	dummy-she	13	OTHER	11	OTHER	1
+29	15	que	15 16	OTHER	-	-	4
+29	19	su-fem-sg	17 19	OTHER	13	her	3
+30	4	su-fem-sg	4	her	4	her	1
+30	7	su-fem-sg	7	OTHER	7	her	3
+31	17	su-fem-sg	17	OTHER	17 19	OTHER	1
+32	0	dummy-undef	0	she	0	she	1
+32	5	que	5	OTHER	5	OTHER	1
+32	11	que	11	OTHER	10 11	OTHER	1
+33	0	dummy-undef	0	OTHER	0	they	3
+33	5	su-masc-sg	5 6	OTHER	4 5	his	3
+35	12	que	11	who	7	who	1
+35	27	su-undef-sg	27	OTHER	-	-	4
+36	10	que	10	OTHER	10	OTHER	1
+36	23	dummy-they	18	OTHER	23	OTHER	1
+36	32	que	32	OTHER	31	OTHER	1
+37	4	dummy-undef	4	OTHER	4	OTHER	1
+37	16	su-pl	12 16	his	12	his	1
+37	29	que	26	that	16	OTHER	3
+37	37	que	28	OTHER	27	OTHER	1
+38	20	que	20	OTHER	19 20	who	3
+38	22	que	21	that	21	that	1
+38	30	él	30	OTHER	30	OTHER	1
+38	33	dummy-they	32 33 34	OTHER	32	OTHER	1
+38	48	su-pl	38	its	37	OTHER	3
+39	0	dummy-it	0	OTHER	0	OTHER	1
+39	3	que	2 3	OTHER	3	OTHER	1
+39	10	su-undef-sg	6	its	6	OTHER	3
+40	1	dummy-undef	1	OTHER	1	OTHER	1
+42	2	que	-	-	-	-	6
+45	6	dummy-i	5 6	i	6	i	1
+45	8	que	8	OTHER	8	that	3
+45	17	que	17 18	OTHER	13 17	OTHER	1
+45	25	dummy-undef	14	OTHER	25	OTHER	1
+45	31	su-undef-sg	26	OTHER	27	OTHER	1

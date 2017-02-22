@@ -1,0 +1,28 @@
+[lang]
+source: es
+target: en
+source_word_separator:
+target_word_separator:
+
+[files]
+source: ./data_es-en/china.low.es
+reference: ./data_es-en/china.low.en.ref
+target: ./data_es-en/china.low.en
+alignment_source_reference: ./data_es-en/china.ref.symal
+alignment_source_target: ./data_es-en/china.symal
+list_source_pronouns: data_es-en/list_es
+list_target_pronouns: data_es-en/list_en
+
+[dictionary]
+equal: 
+similar:  
+
+[cases]
+cases_to_use: 1,2,3,4,5,6
+weigths_per_case: 1,0.5,0,0,0,0
+count_OTHER_as_equal: true
+
+[output]
+output_file: ./data_es-en/output2
+counting_multiword_in_matrix: false
+max_length_matrix = 15

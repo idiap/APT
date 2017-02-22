@@ -1,0 +1,18 @@
+Score: 0.4000
+Cases: 1,2,3,4,5,6
+Weights: 1.0,0.5,0.0,0.0,0.0,0.0
+Findings per case: 38,0,42,10,2,3
+Total findings: 95
+	his	NONE	they	our	that	i	her	with	believed	we	...	-sum-
+his	5	0	0	0	0	0	0	0	0	0	1	6
+NONE	0	3	0	0	0	0	0	0	0	0	2	5
+they	0	0	3	0	0	0	0	0	0	0	0	3
+our	0	0	0	3	0	0	0	0	0	0	0	3
+that	0	0	0	0	3	0	0	0	0	0	2	5
+i	0	0	0	0	0	3	0	0	0	0	0	3
+her	0	0	0	0	0	0	2	0	0	0	0	2
+with	0	0	0	0	0	0	0	2	0	0	1	3
+believed	0	0	0	0	0	0	0	0	2	0	0	2
+we	0	0	0	0	0	0	0	0	0	2	0	2
+...	2	10	1	1	1	0	3	0	0	0	43	61
+-sum-	7	13	4	4	4	3	5	2	2	2	49	95

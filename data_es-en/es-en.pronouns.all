@@ -1,0 +1,89 @@
+######################################
+### used co-reference on these       #
+######################################
+
+## personal pronouns (subjects)
+ella 	she
+ellas 	they
+ellos 	they
+nosotras 	we
+nosotros 	we
+tú 	you
+usted 	you
+ustedes	you
+vosotras 	you
+vosotros 	you
+yo 		I
+él 		he
+dummy-he	he
+dummy-she	she
+dummy-it	it
+dummy-they	they
+dummy-we	we
+dummy-I		I
+dummy-you	you
+dummy-undef	it,she,he,they
+
+## possessive su
+su-masc-sg	his
+su-fem-sg	her
+su-pl		their
+su-undef-sg	his/her
+su-undef	his/her/their
+
+## relative pronoun que
+que-hum		who/whose/whom
+que		that/who/whose/whom
+
+###########################################
+## not used co-reference on these         #
+###########################################
+
+#other personal pronouns (not subjects)
+conmigo 	(with) me
+consigo 	(with) himself/herself/itself/themselves
+contigo 	(with) you
+la 	her (accusative)
+las 	them (accusative)
+le 	it/him/her (dative)
+les 	them (dative)
+lo 	it/him
+los 	them
+me 	me, myself
+mí 	me, myself
+nos 	us, ourselves
+os 	you
+se 	himself/itself/herself/themselves
+sí 	himself/itself/herself/themselves
+te 	you
+ti 	you
+vos 	you
+
+# other possessive pronouns
+mi		my
+mis		my
+nuestra		our/ours
+nuestras	our/ours
+nuestro		our/ours
+nuestros	our/ours
+tu		your
+tus		your
+vuestra		your/yours
+vuestras	your/yours
+vuestro		your/yours
+vuestros	your/yours
+
+mía		mine
+mías		mine
+mío		mine
+míos		mine
+suya		his/hers/theirs
+suyas		his/hers/theirs
+suyo		his/hers/theirs
+suyos		his/hers/theirs
+tuya		yours
+tuyas		yours
+tuyo		yours
+tuyos		yours
+
+
