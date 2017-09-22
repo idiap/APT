@@ -34,7 +34,14 @@ The output will be in ./data_es-en/output1
 
 ## Reference:
 
- [Werlen, Lesly Miculicich and Popescu-Belis, Andrei. 2016. Validation of an Automatic Metric for the Accuracy of Pronoun Translation (APT)](http://publications.idiap.ch/downloads/reports/2016/Werlen_Idiap-RR-29-2016.pdf)
+>@inproceedings{miculicich2017validation,
+>  title={Validation of an Automatic Metric for the Accuracy of Pronoun Translation (APT)},
+>  author={Miculicich Werlen, Lesly and Popescu-Belis, Andrei},
+>  booktitle={Proceedings of the Third Workshop on Discourse in Machine Translation (DiscoMT)},
+>  number={EPFL-CONF-229974},
+>  year={2017},
+>  organization={Association for Computational Linguistics (ACL)}
+>}
  
 ## Contact:
 
