@@ -33,7 +33,7 @@ python APT.py ./data_es-en/config_1
 The output will be in ./data_es-en/output1
 
 ## Reference:
-'''
+```
 @inproceedings{miculicich2017validation,
   title={Validation of an Automatic Metric for the Accuracy of Pronoun Translation (APT)},
   author={Miculicich Werlen, Lesly and Popescu-Belis, Andrei},
@@ -42,7 +42,7 @@ The output will be in ./data_es-en/output1
   year={2017},
   organization={Association for Computational Linguistics (ACL)}
 }
-''' 
+``` 
 ## Contact:
 
 lmiculicich@idiap.ch
