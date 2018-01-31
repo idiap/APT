@@ -90,12 +90,12 @@ def similar(word_source, axis_ref, axis_target, dict_similar):
 				d = set(d)
 				if full_match:
 					if axis_ref <= d and axis_target <= d :
-						return 1, axis_ref , axis_target 
+						return 1., axis_ref , axis_target 
 				else: 
 					if axis_ref & d and axis_target & d:
-						return 1, axis_ref & d, axis_target & d
+						return 1., axis_ref & d, axis_target & d
 				
-	return 0, None, None
+	return 0., None, None
 
 def equal(axis_ref, axis_target, count_other, index_other):
 	if full_match:
@@ -112,7 +112,7 @@ def equal(axis_ref, axis_target, count_other, index_other):
 def get_case(l_source, l_ref, l_target, list_target_words, dict_equal, dict_similar, count_other, index_other):
 
 	word_source = l_source[2]
-	prob = 1
+	prob = 1.
 	axis_ref = [-1]
 	axis_target = [-1]
 
@@ -147,7 +147,7 @@ def score_words(l_source_words, l_ref_words, l_target_words, l_cases, l_weights,
 	list_cases = [0]*len(l_source_words)
 	
 	dict_equal = normalize_dict_equal(list_target_words, dict_equal)
-        dict_similar = normalize_dict_similar(list_target_words, dict_equal, dict_similar)
+	dict_similar = normalize_dict_similar(list_target_words, dict_equal, dict_similar)
 
 	index_other = set([list_target_words.index(other_category)]) if other_category in list_target_words else None
         
@@ -163,7 +163,7 @@ def score_words(l_source_words, l_ref_words, l_target_words, l_cases, l_weights,
 				break
 		list_cases[c] = case
 
-	score = float(sum(cases * weights)/sum(cases))
+	score = sum(cases * weights)/sum(cases)
 	
 	return score, cases, matrix, list_cases		
 
@@ -212,33 +212,34 @@ def get_aligned_positions(l_sentences, l_words, alignment):
 	return l_positions
 
 def get_words_from_list(sentences, list_words, sep_source = None, input_type = "word"):
-	
-	
+	 
 	with codecs.open(sentences, encoding=encoding) as f:
-		l_sentences = []
-		l_words = []
-		
-		if input_type == "word":
-			for i, sentence in enumerate(f):
-				sentence = sentence.strip().lower().split(sep_esp)
-				for pos, word in enumerate(sentence):
-					sub_words = word.split(sep_source)
-					for sub_word in sub_words:
-						if sub_word in list_words:
-							l_sentences.append(i)
-							l_words.append([pos, word, sub_word]) 
-							break
+		sentences = [line.strip() for line in f]
 
-		elif input_type == "possition":
-			with codecs.open(list_words, encoding=encoding) as f_w:
-				for i, (sentence, possitions) in enumerate(zip(f, f_w)):
-					sentence = sentence.strip().lower().split(sep_esp)
-					if possitions.strip() != "":
-						possitions = [int(x) for x in possitions.split(sep_esp)]
-						for pos in possitions:
-							l_sentences.append(i)
-						
-							l_words.append([pos, sentence[pos], sentence[pos]])
+	l_sentences = []
+	l_words = []
+	
+	if input_type == "word":
+		for i, sentence in enumerate(f):
+			sentence = sentence.strip().lower().split(sep_esp)
+			for pos, word in enumerate(sentence):
+				sub_words = word.split(sep_source)
+				for sub_word in sub_words:
+					if sub_word in list_words:
+						l_sentences.append(i)
+						l_words.append([pos, word, sub_word]) 
+						break
+
+	elif input_type == "possition":
+		with codecs.open(list_words, encoding=encoding) as f_w:
+			for line in f_w:
+				n_sentence, possition = line.split()
+				n_sentence = int(n_sentence.strip()) 
+				possition = int(possition.strip())
+				sentence = sentences[n_sentence].lower().split(sep_esp)
+				
+				l_sentences.append(n_sentence)						
+				l_words.append([possition, sentence[possition], sentence[possition]])
 	
 	return numpy.array(l_sentences), l_words
 			
@@ -438,7 +439,6 @@ def main(argv):
 	
 
 	
-
 	l_sentences, l_source_words = get_words_from_list(source, list_source_words, sep_source, input_type)
 	l_ref_pos = get_aligned_positions(l_sentences, l_source_words, align_sr)
 	l_ref_words, l_ref_vocabulary = get_words_from_position(reference, l_sentences, l_ref_pos, list_target_words, sep_target )
@@ -462,7 +462,7 @@ def main(argv):
 	print_output(score, cases, matrix, l_cases, weights, list_target_words, out, max_len_matrix)
 	
 	
-	print "Score: %0.2f" % score
+	print "Score: %0.4f" % score
 	print "More details in output files"
 	print "*** End calculating score\n"
 
