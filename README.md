@@ -44,7 +44,11 @@ The output will be in ./data_es-en/output1
 }
 ``` 
 ## See also:
-Gonzales, Annette Rios, and Don Tuggener. ["Co-reference Resolution of Elided Subjects and Possessive Pronouns in Spanish-English Statistical Machine Translation."](http://www.aclweb.org/anthology/E17-2104) Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics: Volume 2, Short Papers. Vol. 2. 2017.
+Gonzales, Annette Rios, and Don Tuggener. ["Co-reference Resolution of Elided Subjects and Possessive Pronouns in Spanish-English Statistical Machine Translation"](http://www.aclweb.org/anthology/E17-2104). Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics. 2017.
+
+Luong, Ngoc-Quang, and Andrei Popescu-Belis. ["Machine translation of Spanish personal and possessive pronouns using anaphora probabilities"](http://www.aclweb.org/anthology/E17-2100). Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics. 2017.
+
+Miculicich Werlen, Lesly, and Andrei Popescu-Belis. ["Using coreference links to improve spanish-to-english machine translation"](http://www.aclweb.org/anthology/W17-1505). Proceedings of the 2nd Workshop on Coreference Resolution Beyond OntoNotes. 2017.
 
 ## Contact:
 
