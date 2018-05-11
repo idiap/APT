@@ -11,11 +11,14 @@ target: ./data_es-en/china.low.en
 alignment_source_reference: ./data_es-en/china.ref.symal
 alignment_source_target: ./data_es-en/china.symal
 list_source_pronouns: data_es-en/list_es
+input_type: word
 list_target_pronouns: data_es-en/list_en
 
 [dictionary]
 equal: 
 similar:  
+source_pronouns:
+target_pronouns:
 
 [cases]
 cases_to_use: 1,2,3,4,5,6

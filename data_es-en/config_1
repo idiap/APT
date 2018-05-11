@@ -13,13 +13,18 @@ alignment_source_reference: ./data_es-en/china.ref.symal
 alignment_source_target: ./data_es-en/china.symal
 # The list of source pronouns to evaluate is mandatory
 list_source_pronouns: data_es-en/list_es
+# Content type of the list of source pronouns to evaluate [word|possition]
+input_type: word
 # The list of target pronouns to evaluate is optional. Pronouns not in the list will be consider as "OTHER". 
 list_target_pronouns: 
+
 
 [dictionary]
 # Optional dictionaries for considering equal or similar pronouns
 equal: 
 similar:  
+source_pronouns:
+target_pronouns:
 
 [cases]
 # Cases: 1 Equal, 2 Similar, 3 Different, 4 Empty target, 5 Empty reference, 6 Empty target and reference . The cases not listed will be dropped.

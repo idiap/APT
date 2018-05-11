@@ -218,9 +218,9 @@ def get_words_from_list(sentences, list_words, sep_source = None, input_type = "
 
 	l_sentences = []
 	l_words = []
-	
+
 	if input_type == "word":
-		for i, sentence in enumerate(f):
+		for i, sentence in enumerate(sentences):
 			sentence = sentence.strip().lower().split(sep_esp)
 			for pos, word in enumerate(sentence):
 				sub_words = word.split(sep_source)
@@ -228,7 +228,7 @@ def get_words_from_list(sentences, list_words, sep_source = None, input_type = "
 					if sub_word in list_words:
 						l_sentences.append(i)
 						l_words.append([pos, word, sub_word]) 
-						break
+
 
 	elif input_type == "possition":
 		with codecs.open(list_words, encoding=encoding) as f_w:
@@ -237,7 +237,7 @@ def get_words_from_list(sentences, list_words, sep_source = None, input_type = "
 				n_sentence = int(n_sentence.strip()) 
 				possition = int(possition.strip())
 				sentence = sentences[n_sentence].lower().split(sep_esp)
-				
+			
 				l_sentences.append(n_sentence)						
 				l_words.append([possition, sentence[possition], sentence[possition]])
 	
