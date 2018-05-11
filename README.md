@@ -44,7 +44,7 @@ The output will be in ./data_es-en/output1
 }
 ``` 
 ## See also:
-Gonzales, Annette Rios, and Don Tuggener. "Co-reference Resolution of Elided Subjects and Possessive Pronouns in Spanish-English Statistical Machine Translation."[http://www.aclweb.org/anthology/E17-2104] Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics: Volume 2, Short Papers. Vol. 2. 2017.
+Gonzales, Annette Rios, and Don Tuggener. ["Co-reference Resolution of Elided Subjects and Possessive Pronouns in Spanish-English Statistical Machine Translation."](http://www.aclweb.org/anthology/E17-2104) Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics: Volume 2, Short Papers. Vol. 2. 2017.
 
 ## Contact:
 
